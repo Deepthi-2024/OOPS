@@ -49,8 +49,11 @@ Output: Total cost 19,38,290 (Taigun Topline 17,71,000 + 1,13,990(RTO) + 47,300(
 SAMPLE INPUT 3:
 
 Select car model: Polo Trendline
+
 Do you need Insurance: no
+
 Do you need Additional Accessories: no
+
 Dealer discount: 0
 
 Output: Total cost 9,94,990 (Polo Trendline 8,70,000 + 1,13,990(RTO) + 0(Insurance) + 11,000(TCS) + 0(Additional Accessories) - 0(Dealer discount))
