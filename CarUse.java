@@ -1,4 +1,4 @@
-// package assignment.java; // in  eclipse we use our own package name
+// package assignment.java; // in  eclipse we can use our own package name
 
 import java.util.Scanner;
 
