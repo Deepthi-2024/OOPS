@@ -1,4 +1,4 @@
-// package assignment.java; // in  eclipse we can use our own package name
+// package assignment.java; // in  eclipse we use our own package name
 
 import java.util.Scanner;
 
@@ -37,6 +37,7 @@ public class CarUse {
 		if(discount >= 30000) {
 			discount =0;
 		}
+		scan.close();
 		if(insurance.equals("yes") && additionalAccessories.equals("no")) {
 			totalcost = price +  rto + insur + tcscharges - discount;
 		System.out.println("Total Cost " + totalcost);
@@ -64,5 +65,7 @@ public class CarUse {
 		String models = sc.nextLine();
 		car.getdetails(models);
 		car.getCarDetails();
+		sc.close();
+		
 	}
 }
